@@ -8,7 +8,8 @@ router.get('/', function(req, res, next) {
   var fields = _.pick(req.query, 'Address1', 'City', 'ZipCode');
   fields.DistrictType = 'ALL';
   fields.Submit1 = 'Submit';
-  fields.Address1 = fields.Address1.replace(/\s/g, '+');
+  if (fields.Address1)
+    fields.Address1 = fields.Address1.replace(/\s/g, '+');
 
   scraper.query(fields, function(err, legislators) {
     if (err) return res.send(500);
