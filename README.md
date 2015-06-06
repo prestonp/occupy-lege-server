@@ -3,7 +3,7 @@ Occupy Lege Server
 
 > Look up senators and representatives by address
 
-Built for [ATXHackForChange 2015](atxhackforchange.org)
+Built for [ATXHackForChange 2015](http://atxhackforchange.org)
 
 ### Set up
 
