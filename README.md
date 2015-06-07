@@ -5,6 +5,8 @@ Occupy Lege Server
 
 Built for [ATXHackForChange 2015](http://atxhackforchange.org)
 
+Check out a demo at http://ludwigmace.github.io/occupylege/
+
 ### Set up
 
 npm install
